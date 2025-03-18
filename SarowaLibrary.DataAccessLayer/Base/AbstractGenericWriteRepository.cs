@@ -3,7 +3,7 @@ using System.Linq.Expressions;
 
 namespace SarowaLibrary.DataAccessLayer.Base
 {
-    public abstract class AbstractGenericWriteRepository<T,TDbContext> : IWriteRepository<T> where T : class, TDbContext where TDbContext : DbContext
+    public abstract class AbstractGenericWriteRepository<T,TDbContext> : IWriteRepository<T> where T : class where TDbContext : DbContext
     {
         public DbSet<T> Table { get { return _db.Set<T>(); } }
         private readonly TDbContext _db;

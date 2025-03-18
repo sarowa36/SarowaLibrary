@@ -4,12 +4,17 @@
     <TargetFramework>net9.0</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
+    <Authors>Sarowa36</Authors>
+    <PackageProjectUrl></PackageProjectUrl>
+    <Copyright>You can use how you want mf.</Copyright>
+    <RepositoryUrl>https://github.com/sarowa36/SarowaLibrary</RepositoryUrl>
+    <Version>9.0.2</Version>
   </PropertyGroup>
 
   <ItemGroup>
     <PackageReference Include="Microsoft.AspNetCore.WebUtilities" Version="9.0.2" />
     <PackageReference Include="SixLabors.ImageSharp" Version="3.1.7" />
-	  <FrameworkReference Include="Microsoft.AspNetCore.App"/>
+	  <FrameworkReference Include="Microsoft.AspNetCore.App" />
   </ItemGroup>
 
 </Project>

@@ -4,6 +4,10 @@
     <TargetFramework>net9.0</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
+    <Version>9.0.2</Version>
+    <Authors>Sarowa36</Authors>
+    <RepositoryUrl>https://github.com/sarowa36/SarowaLibrary</RepositoryUrl>
+    <Copyright>You can use how you want mf.</Copyright>
   </PropertyGroup>
 
 </Project>
